@@ -1,0 +1,30 @@
+
+/* Class = "NSMenuItem"; title = "OpenHAB"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "OpenHAB";
+
+/* Class = "NSMenuItem"; title = "Quit OpenHAB"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "Quit OpenHAB";
+
+/* Class = "NSMenuItem"; title = "About OpenHAB"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "About OpenHAB";
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
+"AYu-sK-qS6.title" = "Main Menu";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "BOF-NM-1cW"; */
+"BOF-NM-1cW.title" = "Preferences…";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "IQv-IB-iLA"; */
+"IQv-IB-iLA.title" = "Window";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
+"Kd2-mp-pUS.title" = "Show All";
+
+/* Class = "NSMenuItem"; title = "Hide OpenHAB"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "Hide OpenHAB";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
+"Vdr-fp-XzO.title" = "Hide Others";
+
+/* Class = "NSMenu"; title = "OpenHAB"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "OpenHAB";
