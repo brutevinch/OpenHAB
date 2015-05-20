@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>5FCD518D-5399-4568-AFCA-D1115CE908B7</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>OpenHAB</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>886259EABC076668517BA791B8D5630609263B72</key>
 		<string>https://github.com/brutevinch/OpenHAB.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>OpenHAB.xcodeproj/project.xcworkspace</string>
+	<string>OpenHAB.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>886259EABC076668517BA791B8D5630609263B72</key>
