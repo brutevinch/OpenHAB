@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  OpenHAB
-//
-//  Created by Влад on 20.05.15
-//  Copyright (c) 2015 Влад. All rights reserved.
-//
-
 import Cocoa
 
 

@@ -10,90 +10,29 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "OpenHAB/ViewController.swift"
-            timestampString = "453806138.690211"
+            timestampString = "453825319.012477"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OpenHAB/ViewController.swift"
+            timestampString = "453840556.727832"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "17"
             endingLineNumber = "17"
-            landmarkName = "ViewController"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "OpenHAB.ViewController.webView.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.WebView&gt;"
-                  moduleName = "OpenHAB"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vlad/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81.%D0%94%D0%B8%D1%81%D0%BA/OpenHAB/OpenHAB/ViewController.swift"
-                  timestampString = "453797346.944577"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "12">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "OpenHAB.ViewController.webView.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.WebView&gt;"
-                  moduleName = "OpenHAB"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vlad/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81.%D0%94%D0%B8%D1%81%D0%BA/OpenHAB/OpenHAB/ViewController.swift"
-                  timestampString = "453797346.944914"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "16">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "OpenHAB.ViewController.webView.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.WebView&gt;"
-                  moduleName = "OpenHAB"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vlad/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81.%D0%94%D0%B8%D1%81%D0%BA/OpenHAB/OpenHAB/ViewController.swift"
-                  timestampString = "453797346.945114"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "16">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "OpenHAB.ViewController.init (OpenHAB.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; Swift.Optional&lt;OpenHAB.ViewController&gt;"
-                  moduleName = "OpenHAB"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vlad/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81.%D0%94%D0%B8%D1%81%D0%BA/OpenHAB/OpenHAB/ViewController.swift"
-                  timestampString = "453797346.945288"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "53">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "OpenHAB.ViewController.init (OpenHAB.ViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; Swift.Optional&lt;OpenHAB.ViewController&gt;"
-                  moduleName = "OpenHAB"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vlad/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81.%D0%94%D0%B8%D1%81%D0%BA/OpenHAB/OpenHAB/ViewController.swift"
-                  timestampString = "453797346.945446"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "31">
-               </Location>
-            </Locations>
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
