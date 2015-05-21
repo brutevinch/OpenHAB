@@ -12,7 +12,8 @@
 		F55C179B1B0C549C0025F4FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55C179A1B0C549C0025F4FD /* Images.xcassets */; };
 		F55C179E1B0C549C0025F4FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55C179C1B0C549C0025F4FD /* Main.storyboard */; };
 		F55C17AA1B0C549C0025F4FD /* OpenHABTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55C17A91B0C549C0025F4FD /* OpenHABTests.swift */; };
-		F5E2DBF41B0E5BA2003EC2DA /* Prefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E2DBF31B0E5BA2003EC2DA /* Prefs.swift */; };
+		F5E5ABDA1B0E62C400CC0E94 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E5ABD81B0E62C400CC0E94 /* Preferences.swift */; };
+		F5E5ABDB1B0E62C400CC0E94 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E5ABD91B0E62C400CC0E94 /* Preferences.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,8 @@
 		F55C17A81B0C549C0025F4FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F55C17A91B0C549C0025F4FD /* OpenHABTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenHABTests.swift; sourceTree = "<group>"; };
 		F55C17B31B0C628E0025F4FD /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
-		F5E2DBF31B0E5BA2003EC2DA /* Prefs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Prefs.swift; path = ../Prefs.swift; sourceTree = "<group>"; };
+		F5E5ABD81B0E62C400CC0E94 /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Preferences.swift; path = OpenHAB/Preferences.swift; sourceTree = "<group>"; };
+		F5E5ABD91B0E62C400CC0E94 /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Preferences.xib; path = OpenHAB/Preferences.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,8 @@
 		F55C17881B0C549C0025F4FD = {
 			isa = PBXGroup;
 			children = (
+				F5E5ABD81B0E62C400CC0E94 /* Preferences.swift */,
+				F5E5ABD91B0E62C400CC0E94 /* Preferences.xib */,
 				F55C17931B0C549C0025F4FD /* OpenHAB */,
 				F55C17A61B0C549C0025F4FD /* OpenHABTests */,
 				F55C17921B0C549C0025F4FD /* Products */,
@@ -78,7 +82,6 @@
 		F55C17931B0C549C0025F4FD /* OpenHAB */ = {
 			isa = PBXGroup;
 			children = (
-				F5E2DBF31B0E5BA2003EC2DA /* Prefs.swift */,
 				F55C17961B0C549C0025F4FD /* AppDelegate.swift */,
 				F55C17981B0C549C0025F4FD /* ViewController.swift */,
 				F55C179A1B0C549C0025F4FD /* Images.xcassets */,
@@ -194,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F55C179B1B0C549C0025F4FD /* Images.xcassets in Resources */,
+				F5E5ABDB1B0E62C400CC0E94 /* Preferences.xib in Resources */,
 				F55C179E1B0C549C0025F4FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,9 +216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5E2DBF41B0E5BA2003EC2DA /* Prefs.swift in Sources */,
 				F55C17991B0C549C0025F4FD /* ViewController.swift in Sources */,
 				F55C17971B0C549C0025F4FD /* AppDelegate.swift in Sources */,
+				F5E5ABDA1B0E62C400CC0E94 /* Preferences.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

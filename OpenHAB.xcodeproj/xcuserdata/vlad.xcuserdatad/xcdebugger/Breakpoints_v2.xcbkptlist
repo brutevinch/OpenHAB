@@ -10,13 +10,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "OpenHAB/ViewController.swift"
-            timestampString = "453926098.25938"
+            timestampString = "453931115.036747"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "14"
             endingLineNumber = "14"
             landmarkName = "viewDidLoad()"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OpenHAB/Preferences.swift"
+            timestampString = "453931459.438921"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

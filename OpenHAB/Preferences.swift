@@ -1,14 +1,17 @@
 import Cocoa
 
-class Prefs: NSViewController {
+class Preferences: NSViewController {
 
     @IBOutlet weak var fldIP: NSTextField!
     @IBOutlet weak var fldSite: NSTextField!
-    @IBAction func save(sender: AnyObject) {
-    }
+    @IBOutlet weak var test1: NSTextField!
+
     @IBAction func cancel(sender: AnyObject) {
     }
     
+    @IBAction func save(sender: AnyObject) {
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.

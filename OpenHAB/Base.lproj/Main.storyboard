@@ -24,7 +24,7 @@
                                         <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
                                         <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW">
                                             <connections>
-                                                <segue destination="zkG-F8-jmC" kind="show" id="86O-gd-7RS"/>
+                                                <segue destination="zkG-F8-jmC" kind="show" id="h1U-Sx-jRQ"/>
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
@@ -66,16 +66,16 @@
             </objects>
             <point key="canvasLocation" x="-649.5" y="-1964"/>
         </scene>
-        <!--Prefs-->
+        <!--Preferences-->
         <scene sceneID="Xkj-I8-z8f">
             <objects>
-                <viewController id="zkG-F8-jmC" customClass="Prefs" customModule="OpenHAB" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Preferences" id="zkG-F8-jmC" customClass="Preferences" customModule="OpenHAB" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="lp0-AI-iUs">
                         <rect key="frame" x="0.0" y="0.0" width="310" height="125"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BuQ-CX-ABj">
-                                <rect key="frame" x="151" y="93" width="139" height="22"/>
+                                <rect key="frame" x="148" y="93" width="142" height="22"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="oW2-jt-R6S">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -83,25 +83,15 @@
                                 </textFieldCell>
                             </textField>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p5a-ll-usJ">
-                                <rect key="frame" x="151" y="55" width="139" height="22"/>
+                                <rect key="frame" x="148" y="55" width="142" height="22"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="5Vo-Xh-Gvp">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yLj-JZ-61t">
-                                <rect key="frame" x="136" y="13" width="71" height="32"/>
-                                <buttonCell key="cell" type="push" title="Save" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="fdS-TD-BOY">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <connections>
-                                    <action selector="save:" target="zkG-F8-jmC" id="Rhr-dw-LtL"/>
-                                </connections>
-                            </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fzb-QD-bdw">
-                                <rect key="frame" x="214" y="13" width="83" height="32"/>
+                                <rect key="frame" x="213" y="13" width="83" height="32"/>
                                 <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="oZK-4e-ovF">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -110,30 +100,43 @@ Gw
 </string>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="cancel:" target="zkG-F8-jmC" id="dKP-cE-LXj"/>
+                                    <action selector="cancel:" target="zkG-F8-jmC" id="qS4-vS-GES"/>
                                 </connections>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IXe-RO-2Re">
-                                <rect key="frame" x="18" y="96" width="128" height="17"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="OpenHAB ip:port -&gt;" id="zxb-Sb-Rba">
+                                <rect key="frame" x="18" y="96" width="110" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="OpenHAB ip:port" id="zxb-Sb-Rba">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sbh-1T-CWf">
-                                <rect key="frame" x="72" y="58" width="73" height="17"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Sitemap -&gt;" id="2e6-nD-tx0">
+                                <rect key="frame" x="73" y="58" width="55" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Sitemap" id="2e6-nD-tx0">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9bF-Qj-75i">
+                                <rect key="frame" x="142" y="13" width="71" height="32"/>
+                                <buttonCell key="cell" type="push" title="Save" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="MYr-ne-I39">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                    <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="save:" target="zkG-F8-jmC" id="FOS-KG-uuz"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
-                        <outlet property="fldIP" destination="BuQ-CX-ABj" id="Cge-Jf-qPf"/>
-                        <outlet property="fldSite" destination="p5a-ll-usJ" id="r0z-d6-TSY"/>
+                        <outlet property="fldIP" destination="BuQ-CX-ABj" id="t11-Aq-5Hn"/>
+                        <outlet property="fldSite" destination="p5a-ll-usJ" id="wum-No-jip"/>
                     </connections>
                 </viewController>
                 <customObject id="AI7-Qd-8sW" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
@@ -148,7 +151,7 @@ Gw
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowCollectionBehavior key="collectionBehavior" fullScreenPrimary="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-                        <rect key="contentRect" x="50" y="120" width="430" height="800"/>
+                        <rect key="contentRect" x="50" y="123" width="430" height="797"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1080"/>
                         <value key="minSize" type="size" width="430" height="600"/>
                         <value key="maxSize" type="size" width="2880" height="5120"/>
@@ -159,12 +162,12 @@ Gw
                 </windowController>
                 <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-495" y="-1611"/>
+            <point key="canvasLocation" x="-262" y="-1613.5"/>
         </scene>
-        <!--View Controller-->
+        <!--OpenHAB-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="OpenHAB" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="OpenHAB" id="XfG-lQ-9wD" customClass="ViewController" customModule="OpenHAB" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="800"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -189,7 +192,7 @@ Gw
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-947" y="-1409"/>
+            <point key="canvasLocation" x="-947" y="-1445"/>
         </scene>
     </scenes>
 </document>

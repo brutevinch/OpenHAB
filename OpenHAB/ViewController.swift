@@ -8,11 +8,11 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var openhabSitemap = "default"
-        var openhabServer = "10.0.1.9:8080"
-        var openhaburl = "http://\(openhabServer)/classicui?sitemap=\(openhabSitemap)"
+        var ohSite = "default"
+        var ohServ = "10.0.1.9:8080"
+        var ohurl = "http://\(ohServ)/classicui?sitemap=\(ohSite)"
         
-        self.webView.mainFrame.loadRequest(NSURLRequest(URL: NSURL (string: openhaburl)!) )
+        self.webView.mainFrame.loadRequest(NSURLRequest(URL: NSURL (string: ohurl)!) )
     }
 
     override var representedObject: AnyObject? {
