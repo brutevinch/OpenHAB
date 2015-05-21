@@ -4,8 +4,6 @@ import WebKit
 class ViewController: NSViewController {
 
     @IBOutlet weak var webView: WebView!
-
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
